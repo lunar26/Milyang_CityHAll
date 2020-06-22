@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>밀양시청</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common_2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/css/swiper.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <div class="skip_nav blind">
+            <a href="#">본문바로가기</a>
+            <a href="#">본문바로가기</a>
+            <a href="#">본문바로가기</a>
+            <a href="#">본문바로가기</a>
+            <a href="#">본문바로가기</a>
+        </div>
+        <header>
+            <h1 class="blind">안양시청</h1>
+            <div class="util">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">안녕,밀양</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                    <li><a href="#">이용안내</a></li>
+                    <li><a href="#">ENGLISH</a></li>
+                </ul>
+            </div>
+            <!--util-->
+            <div class="search_wrap">
+                <div class="search_inner">
+                    <h2><a href="#">밀양시청</a></h2>
+                    <div class="search">
+                        <form action="post">
+                            <fieldset>
+                                <label for="search_category">검색범위</label>
+                                <select name="" id="serach_category">
+                                    <option value="">통합검색</option>
+                                    <option value="">민원서식</option>
+                                    <option value="">빠른서비스</option>
+                                </select>
+                                <label for="search">검색</label>
+                                <input type="search" name="search" id="search">
+                                <button type="button">검색</button>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <!--search-->
+                    <div class="weather_api">
+                    </div>
+                    <!--weather_api-->
+                </div>
+                <!--search_inner-->
+            </div>
+            <!--search_wrap-->
+            <div class="gnb_wrap">
+                <div class="m_btn">
+                    <div class="icon_wrap">
+                        <div class="icon"></div>
+                    </div>
+                    <!-- icon_wrap -->
+                </div>
+                <!-- m_btn -->
+                <div class="gnb_inner">
+                    <button type="button" class="btn_whole">전체메뉴</button>
+                    <!-- gnb -->
+                    <div class="gnb">
+                        <ul>
+                            <li><a href="#">시민참여</a>
+                                <ul class="sub_menu">
+                                    <li><a href="#">규제개혁</a></li>
+                                    <li><a href="#">시민의 소리</a></li>
+                                    <li><a href="#">밀양시에 바란다</a></li>
+                                    <li><a href="#">민원옴부즈만</a></li>
+                                    <li><a href="#">시정현장평가단</a></li>
+                                    <li><a href="#">온라인신청</a></li>
+                                    <li><a href="#">주민참여예산제</a></li>
+                                    <li><a href="#">설문조사</a></li>
+                                    <li><a href="#">인문마당</a></li>
+                                    <li><a href="#">시민행복 상담실</a></li>
+                                </ul>
+                            </li>
+                            <!--시민참여-->
+                            <li><a href="#">밀양소개</a>
+                                <ul class="sub_menu">
+                                    <li><a href="#">밀양시 소개</a></li>
+                                    <li><a href="#">밀양의 현황</a></li>
+                                    <li><a href="#">밀양의 상징</a></li>
+                                    <li><a href="#">시청안내</a></li>
+                                    <li><a href="#">홍보관</a></li>
+                                    <li><a href="#">자매결연도시</a></li>
+                                    <li><a href="#">유관기관</a></li>
+                                    <li><a href="#">행복도시 공감지표</a></li>
+                                </ul>
+                            </li>
+                            <!--안양소개-->
+                            <li><a href="#">전자민원</a>
+                                <ul class="sub_menu">
+                                    <li><a href="#">종합민원안내</a></li>
+                                    <li><a href="#">밀양시 온라인민원</a></li>
+                                    <li><a href="#">신고센터</a></li>
+                                    <li><a href="#">자동차민원</a></li>
+                                    <li><a href="#">건설기계민원</a></li>
+                                    <li><a href="#">이륜자동차민원</a></li>
+                                    <li><a href="#">여권발급민원</a></li>
+                                    <li><a href="#">민원서식 및 이용안내</a></li>
+                                    <li><a href="#">민원편람</a></li>
+                                    <li><a href="#">민원상담전화</a></li>
+                                    <li><a href="#">행정서비스헌장</a></li>
+                                    <li><a href="#">콜센터</a></li>
+                                </ul>
+                            </li>
+                            <!--전자민원-->
+                            <li><a href="#">정보공개</a>
+                                <ul class="sub_menu">
+                                    <li><a href="#">행정정보공개</a></li>
+                                    <li><a href="#">공공데이터개방</a></li>
+                                    <li><a href="#">지방공기업</a></li>
+                                    <li><a href="#">부서자료실</a></li>
+                                    <li><a href="#">예산정보</a></li>
+                                    <li><a href="#">행정자료실</a></li>
+                                    <li><a href="#">자치법규(조례)</a></li>
+                                    <li><a href="#">공개합니다</a></li>
+                                    <li><a href="#">통계정보</a></li>
+                                    <li><a href="#">정책실명제</a></li>
+                                </ul>
+                            </li>
+                            <!--정보공개-->
+                            <li><a href="#">시정소식</a>
+                                <ul class="sub_menu">
+                                    <li><a href="#">새소식</a></li>
+                                    <li><a href="#">보도(해명)자료</a></li>
+                                    <li><a href="#">행사교육</a></li>
+                                    <li><a href="#">고시/공고</a></li>
+                                    <li><a href="#">입찰/계약</a></li>
+                                    <li><a href="#">안양시보</a></li>
+                                    <li><a href="#">타기관소식</a></li>
+                                    <li><a href="#">포커스안양</a></li>
+                                    <li><a href="#">생생정보</a></li>
+                                </ul>
+                            </li>
+                            <!--시정소식-->
+                        </ul>
+                    </div>
+                    <!--gnb-->
+                </div><!-- gnb_inner -->
+            </div>
+            <!--gnb_wrap-->
+            <div class="slide_menu">
+                <h2>정보별분야보기</h2>
+                <ul>
+                    <li><a href="#">교육</a></li>
+                    <li><a href="#">교통</a></li>
+                    <li><a href="#">기업일자리</a></li>
+                    <li><a href="#">도시건축</a></li>
+                    <li><a href="#">문화관광</a></li>
+                    <li><a href="#">복지</a></li>
+                    <li><a href="#">소비자경제</a></li>
+                    <li><a href="#">세금(지방세)</a></li>
+                    <li><a href="#">재난/안전</a></li>
+                    <li><a href="#">환경/보건/위생</a></li>
+                </ul>
+                <div class="slide_menu_border">
+                    <div class="slide_menu_btn">
+                        한눈에 분야별 정보 보기 V
+                    </div>
+                    <!--slide_menu_btn-->
+                </div>
+                <!--slide_menu_border-->
+            </div>
+            <!--slide_menu-->
+        </header>
+        <!-------------------------------------container------------------------------------------------------------>
+        <div id="container">
+            <div class="home_wrap">
+                <div class="home">
+                    <div>
+                        <div class="mayor">밀양시장사진</div>
+                        <div class="online_book">
+                            <h3>온라인예약신청</h3>
+                            <form action="post">
+                                <fieldset>
+                                    <legend>온라인예약신청</legend>
+                                    <label for="online">온라인예약신청</label>
+                                    <select name="online" id="online">
+                                        <option value="none">예약서비스선택</option>
+                                        <option value="1">환경시설견학 신청</option>
+                                        <option value="2">관광안내책자/지도신청</option>
+                                        <option value="3">자유공원인조단지구장 예약</option>
+                                        <option value="4">여성친화도시 서포터즈 신청</option>
+                                        <option value="5">생태이야기관 프로그램 신청</option>
+                                        <option value="6">공모전/사업/행사신청</option>
+                                        <option value="7">생태이야기관 프로그램 신청</option>
+                                        <option value="8">공모전/사업/행사 신청</option>
+                                        <option value="9">재난안전체험관 예약</option>
+                                        <option value="10">밀양형 산림치유 신청</option>
+                                        <option value="11">쇼복지원금 신청</option>
+                                        <option value="12">2019신혼부부 주택매입 및 전세자금대출이자 지원 신청</option>
+                                    </select>
+                                    <button type="button">신청하기</button>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <!--online_book-->
+                    </div>
+                    <div class="home_slide">
+                        <ul class="slide swiper-wrapper">
+                            <li class="sl1 swiper-slide"><a href="#">상동 명품장미길</a></li>
+                            <li class="sl2 swiper-slide"><a href="#">초동 연가길</a></li>
+                            <li class="sl3 swiper-slide"><a href="#">월연정</a></li>
+                            <li class="sl4 swiper-slide"><a href="#">우주천문대</a></li>
+                            <li class="sl5 swiper-slide"><a href="#">표충사의 봄</a></li>
+                            <li class="sl6 swiper-slide"><a href="#">영남루</a></li>
+                        </ul>
+                        <!--slide-->
+                        <div class="arrow_box">
+                            <button type="botton" class="prev">이전</button>
+                            <button type="botton" class="next">다음</button>
+                        </div>
+                        <!--arrow_box-->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <!--home_slide-->
+                </div>
+                <!--home-->
+                <div class="home_menu">
+                    <div>
+                        <div class="book_service">
+                            <h3>공공시설예약</h3>
+                            <h4>밀양의 공공시설을 편하게 예약하세요</h4>
+                            <form action="post">
+                                <filedset>
+                                    <legend>공공시설예약</legend>
+                                    <label for="book_service">공공시설예약</label>
+                                    <select name="book_service" id="book_service">
+                                        <option value="none">선택하세요</option>
+                                        <option value="1">도서관</option>
+                                        <option value="2">체육관</option>
+                                        <option value="3">박물관</option>
+                                    </select>
+                                </filedset>
+                            </form>
+                        </div>
+                        <!--book_serivce-->
+                        <div class="shortcut_menu swiper-container">
+                            <h3>빠른서비스</h3>
+                            <h4>시민의 민원업무를 신속하고 빠르게 처리해 드리겠습니다.</h4>
+                            <ul class="swiper-wrapper">
+                                <li class="swiper-slide"><a href="#"><i></i>상하수도 서비스</a></li>
+                                <li class="swiper-slide"><a href="#"><i></i>사회경제소식</a></li>
+                                <li class="swiper-slide"><a href="#"><i></i>문화 관광</a></li>
+                                <li class="swiper-slide"><a href="#"><i></i>안전신문고</a></li>
+                                <li class="swiper-slide"><a href="#"><i></i>포토갤러리</a></li>
+                                <li class="swiper-slide"><a href="#"><i></i>밀양에는</a></li>
+                            </ul>
+                            <button type="button" class="swiper-button-prev">이전</button>
+                            <button type="button" class="swiper-button-next">다음</button>
+                        </div>
+                        <!--shortcut_menu-->
+                    </div>
+                </div>
+                <!--home_menu-->
+            </div><!-- home_wrap -->
+            <div id="contents">
+                <div class="news_wrap">
+                    <div class="news">
+                        <div class="tab_board">
+                            <div class="tab_menu">
+                                <h4 class="blind">뉴스 카테고리</h4>
+                                <ul>
+                                    <li><button type="button">새소식</button></li>
+                                    <li><button type="button">행사교육</button></li>
+                                    <li><button type="button">교육</button></li>
+                                    <li><button type="button">복지</button></li>
+                                    <li><button type="button">생활</button></li>
+                                    <li><button type="button">일자리</button></li>
+                                    <li><button type="button">농업</button></li>
+                                </ul>
+                            </div>
+                            <!--tab_menu-->
+                            <div class="tab_body">
+                                <div class="tab_body_box">
+                                    <h4 class="blind">새소식</h4>
+                                    <div>
+                                        <a href="#">
+                                            <h5>밀양4번 코로나19 확진자 퇴원</h5>
+                                            <p>현재 입원 중인 확진자 1명</p>
+                                            <p>2020.03.30</p>
+                                        </a>
+                                    </div>
+                                    <ul>
+                                        <li><a href="#">산내면, 얼음골 명품 단풍둘레길 조성사업<span>2020-03-30</span></a></li>
+                                        <li><a href="#">코로나19 열화상카메라 2대 추가 설치<span>2020-03-30</span></a></li>
+                                        <li><a href="#">밀양시 5급 이상 공무원,‘급여 반납 운동’에 동참<span>2020-03-30</span></a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">밀양시, 밀양사랑상품권 월 한도 100만원으로 상향 <span>2020-03-30</span></a></li>
+                                        <li><a href="#">5월 어린이날 행사를 9월 어린이를 위한 축제로<span>2020-03-30</span></a></li>
+                                        <li><a href="#">밀양, 코로나는 저멀리, 문화는 더 가까이<span>2020-03-26</span></a></li>
+                                    </ul>
+                                </div>
+                                <!--tab_body_box-->
+                                <div class="tab_body_box">
+                                    <h4 class="blind">행사교육</h4>
+                                    <div>
+                                        <a href="#">
+                                            <h5>사랑의 헌혈 참여 안내</h5>
+                                            <p>혈액수급과 헌혈을 통한 고귀한 나눔문화 확산을 위해 헌혈행사를 다음과 같이 실시하오니 인간생명보호 운동 “사랑의 헌혈”에 많은
+                                                참여바랍니다.</p>
+                                            <p>2020.03.27</p>
+                                        </a>
+                                    </div>
+                                    <ul>
+                                        <li><a href="#">『제62회밀양아리랑대축제』가 9월로 연기되었습니다<span>2020-03-10</span></a></li>
+                                        <li><a href="#">2020년도 경남장애인기능경기대회 참가원서접수<span>2020-02-14</span></a></li>
+                                        <li><a href="#">밀양시립박물관 김향선생 기증작품전<span>2019-10-14</span></a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">아리랑 유네스코등재 7주년 특별기획공연 안내<span>2019-10-14</span></a></li>
+                                        <li><a href="#">부북면 주간행사 알림(11.24.~11.30.)<span>2019-10-14</span></a></li>
+                                        <li><a href="#">2019년 얼음골사과 시식홍보 행사 및 직거래장터<span>2019-10-14</span></a></li>
+                                    </ul>
+                                </div>
+                                <!--tab_body_box-->
+                                <div class="tab_body_box">
+                                    <h4 class="blind">교육</h4>
+                                    <div>
+                                        <a href="#">
+                                            <h5>2020년도 여민동락 바우처카드 신청기간 연장</h5>
+                                            <p>코로나 감염예방을 위해 온라인 신청을 적극 활용하시기 바랍니다.</p>
+                                            <p>2020.03.19</p>
+                                        </a>
+                                    </div>
+                                    <ul>
+                                        <li><a href="#">2020년 대학입학 장학생 모집 선발 공고<span>2019-10-14</span></a></li>
+                                        <li><a href="#">사업용운전자 밀양현지 보수교육 잠정 중단 알림<span>2019-10-14</span></a></li>
+                                        <li><a href="#">2020년 상반기 독서문화프로그램 수강생 모집<span>2019-10-14</span></a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">밀양시 도시재생 협동조합교육 기초과정 교육생 모집<span>2019-10-14</span></a></li>
+                                        <li><a href="#">밀양시여성회관 12월 단기 교육강좌 수강생 모집 안내<span>2019-10-14</span></a></li>
+                                        <li><a href="#">[교육안내] 발효음식체험 장담그기 교육생 모집<span>2019-10-14</span></a></li>
+                                    </ul>
+                                </div>
+                                <!--tab_body_box-->
+                                <div class="tab_body_box">
+                                    <h4 class="blind">복지</h4>
+                                    <div>
+                                        <a href="#">
+                                            <h5>밀양시종합사회복지관 프랑스자수 공예교실 수강생 모집 안내</h5>
+                                            <p>밀양시종합사회복지관에서 '프랑스자수 공예교실' 수강생을 모집합니다.</p>
+                                            <p>2020.02.12</p>
+                                        </a>
+                                    </div>
+                                    <ul>
+                                        <li><a href="#">2020년 청년저축계좌 및 희망키움통장 가입자 모집<span>2019-10-14</span></a></li>
+                                        <li><a href="#">2020년 장애인스포츠강좌이용권 지원사업 안내<span>2019-10-14</span></a></li>
+                                        <li><a href="#">2020년 스포츠강좌이용권 추가 모집 안내<span>2019-10-14</span></a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">코로나19 대응 아이돌봄 서비스 이용자 부담 완화<span>2019-10-14</span></a></li>
+                                        <li><a href="#">밀양시 공동육아나눔터 긴급돌봄 안내<span>2019-10-14</span></a></li>
+                                        <li><a href="#">2020년 청년희망키움통장 2차 가입자 모집<span>2019-10-14</span></a></li>
+                                    </ul>
+                                </div>
+                                <!--tab_body_box-->
+                                <div class="tab_body_box">
+                                    <h4 class="blind">생활</h4>
+                                    <div>
+                                        <a href="#">
+                                            <h5>국무조정실「청년의 삶 개선방안」전체과제 안내</h5>
+                                            <p>국무조정실 청년정책추진단에서는 청년들의 제안을 바탕으로 "청년의 삶 개선방안"을 마련하여 확정 발표 ('20. 3. 26.)
+                                                하였습니다.</p>
+                                            <p>2020.03.30</p>
+                                        </a>
+                                    </div>
+                                    <ul>
+                                        <li><a href="#">2020년 경상남도 주민참여예산사업 공모<span>2019-10-14</span></a></li>
+                                        <li><a href="#">「공동주택관리법」개정에 따른 관리비 공개 안내<span>2019-10-14</span></a></li>
+                                        <li><a href="#">공동주택 층간소음 갈등 예방을 위한 안내<span>2019-10-14</span></a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">신종 코로나바이러스 감염증 확산 방지<span>2019-10-14</span></a></li>
+                                        <li><a href="#">식품접객업소 1회용품 사용 한시적 허용 안내<span>2019-10-14</span></a></li>
+                                        <li><a href="#">'20.2.24. 시내버스 표충사종점변경 안내<span>2019-10-14</span></a></li>
+                                    </ul>
+                                </div>
+                                <!--tab_body_box-->
+                                <div class="tab_body_box">
+                                    <h4 class="blind">일자리</h4>
+                                    <div>
+                                        <a href="#">
+                                            <h5>2020년도 일자리대책 연차별 세부계획</h5>
+                                            <p>고용정책기본법 제9조의2(지역일자리 창출대책의 수립 등)에 의거 밀양시 2020년도 일자리대책 연차별 세부계획을 붙임과 같이
+                                                공시하오니, 참고하시기 바랍니다.</p>
+                                            <p>2020.03.30</p>
+                                        </a>
+                                    </div>
+                                    <ul>
+                                        <li><a href="#">경상남도 도립예술단 상임단원 공개모집 홍보<span>2019-10-14</span></a></li>
+                                        <li><a href="#">밀양시 경남형 뉴딜일자리 사업 참여자 모집 공고<span>2019-10-14</span></a></li>
+                                        <li><a href="#">경남청년구직활동수당지원사업 대상자 모집 공고<span>2019-10-14</span></a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">코로나 19 관련 지원제도 - 부산 지방 고용노동청 양산지청<span>2019-10-14</span></a>
+                                        </li>
+                                        <li><a href="#">맞춤형 입찰정보서비스 지원사업 안내<span>2019-10-14</span></a></li>
+                                        <li><a href="#">2020년 로컬크리에이터 활성화 지원 사업<span>2019-10-14</span></a></li>
+                                    </ul>
+                                </div>
+                                <!--tab_body_box-->
+                                <div class="tab_body_box">
+                                    <h4 class="blind">농업</h4>
+                                    <div>
+                                        <a href="#">
+                                            <h5>2020년 여성농업인 바우처 지원사업 추가 신청 안내</h5>
+                                            <p> 여성농업인 바우처 지원사업 추가 신청</p>
+                                            <p>2020.03.31</p>
+                                        </a>
+                                    </div>
+                                    <ul>
+                                        <li><a href="#">2020 귀농인 멘토링제 지원사업 신청 안내<span>2019-10-14</span></a></li>
+                                        <li><a href="#">2020년 여성농업인 바우처 지원사업 추가 신청 알림<span>2019-10-14</span></a></li>
+                                        <li><a href="#">2020년 여성농업인 CEO 교육과정 추가모집 안내<span>2019-10-14</span></a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">2020년 우수후계농업경영인 지원사업 신청 안내<span>2019-10-14</span></a></li>
+                                        <li><a href="#">2020년 우수후계농업경영인 지원사업 신청<span>2019-10-14</span></a></li>
+                                        <li><a href="#">2020년 논 타작물 재배 지원사업 신청 알림<span>2019-10-14</span></a></li>
+                                    </ul>
+                                </div>
+                                <!--tab_body_box-->
+                            </div>
+                            <!--tab_body-->
+                        </div>
+                        <!--tab_board-->
+                        <div class="inform">
+                            <div>
+                                <h3>알림존</h3>
+                                <div class="info_controller">
+                                    <button type="button" class="prev">이전</button>
+                                    <button type="button" class="pause">일시정지</button>
+                                    <button type="button" class="play">다시재생</button>
+                                    <button type="button" class="next">다음</button>
+                                </div>
+                                <!--info_controller-->
+                            </div>
+                            <ul class="info_slide swiper-wrapper">
+                                <li class="sl1 swiper-slide"><a href="#">사진1</a></li>
+                                <li class="sl2 swiper-slide"><a href="#">사진2</a></li>
+                                <li class="sl3 swiper-slide"><a href="#">사진3</a></li>
+                                <li class="sl4 swiper-slide"><a href="#">사진4</a></li>
+                                <li class="sl5 swiper-slide"><a href="#">사진5</a></li>
+                            </ul>
+                            <!--info_slide-->
+                        </div>
+                        <!--inform-->
+                    </div>
+                    <!--news-->
+                </div>
+                <!--news_wrap-->
+                <div class="major_wrap">
+                    <div class="major_service">
+                        <h3>자주 찾는 서비스</h3>
+                        <p>편리하고 빠르게 메뉴를 찾으세요</p>
+                        <div class="ser_box">
+                            <h4>여권민원</h4>
+                            <div class="ser_list"></div>
+                            <div class="ser_desc">
+                                <ul>
+                                    <li><a href="#">여권 발권 재발급</a></li>
+                                    <li><a href="#">여권 분실 신고</a></li>
+                                    <li><a href="#">구비서류</a></li>
+                                </ul>
+                            </div>
+                            <!--service_list-->
+                        </div>
+                        <!--ser_box-->
+                        <div class="ser_box">
+                            <h4>주정차단속<br> 문자알림 서비스</h4>
+                            <div class="ser_list"></div>
+                            <div class="ser_desc">
+                                <ul>
+                                    <li><a href="#">서비스신규신청</a></li>
+                                    <li><a href="#">서비스수정신청</a></li>
+                                    <li><a href="#">서비스탈퇴신청</a></li>
+                                </ul>
+                            </div>
+                            <!--service_list-->
+                        </div>
+                        <!--ser_box-->
+                        <div class="ser_box">
+                            <h4>지방세안내 조회납부</h4>
+                            <div class="ser_list"></div>
+                            <div class="ser_desc">
+                                <ul>
+                                    <li><a href="#">지방세 인터넷 조회납부</a></li>
+                                </ul>
+                            </div>
+                            <!--service_list-->
+                        </div>
+                        <!--ser_box-->
+                        <div class="ser_box">
+                            <h4>민원서식</h4>
+                            <div class="ser_list"></div>
+                            <!--icon_top-->
+                            <div class="ser_desc">
+                                <ul>
+                                    <li><a href="#">안양시 민원서식</a></li>
+                                </ul>
+                            </div>
+                            <!--service_list-->
+                        </div>
+                        <!--ser_box-->
+                        <div class="ser_box">
+                            <h4>조직원안내</h4>
+                            <div class="ser_list"></div>
+                            <div class="ser_desc">
+                                <ul>
+                                    <li><a href="#">청사안내</a></li>
+                                    <li><a href="#">조직도</a></li>
+                                    <li><a href="#">주요전화번호</a></li>
+                                </ul>
+                            </div>
+                            <!--service_list-->
+                        </div>
+                        <!--ser_box-->
+                        <div class="ser_box">
+                            <h4>부동산포털</h4>
+                            <div class="ser_list"></div>
+                            <div class="ser_desc">
+                                <ul>
+                                    <li><a href="#">개별공시지가 가격</a></li>
+                                    <li><a href="#">개별주택가격</a></li>
+                                    <li><a href="#">공동주택가 가격</a></li>
+                                </ul>
+                            </div>
+                            <!--service_list-->
+                        </div>
+                        <!--ser_box-->
+                    </div>
+                    <!--major_service-->
+                </div>
+                <!-- major_wrap -->
+                <div class="tour_wrap">
+                    <div class="tour_inner">
+                        <h3>
+                            <div>열린 행복도시 힘찬 미래도시 밀양</div>
+                        </h3>
+                        <div class="tour">
+                            <h4>맞춤 여행정보 <strong>테마관광</strong></h4>
+                            <button type="button" class="prev">이전</button>
+                            <button type="button" class="next">다음</button>
+                            <div>
+                                <ul class="tour_slide swiper-wrapper">
+                                    <li class="tour_img swiper-slide tsl1">
+                                        <a href="#">
+                                            <div>
+                                                <p>자연</p>
+                                            </div>
+                                            <p>영남루야경</p>
+                                        </a>
+                                    </li>
+                                    <!--tour_img-->
+                                    <li class="tour_img swiper-slide tsl2">
+                                        <a href="#">
+                                            <div>
+                                                <p>체험</p>
+                                            </div>
+                                            <p>밀양꽃새미마을</p>
+                                        </a>
+                                    </li>
+                                    <!--tour_img-->
+                                    <li class="tour_img swiper-slide tsl3">
+                                        <a href="#">
+                                            <div>
+                                                <p>체험</p>
+                                            </div>
+                                            <p>밀양치즈만들기</p>
+                                        </a>
+                                    </li>
+                                    <!--tour_img-->
+                                    <li class="tour_img swiper-slide tsl4">
+                                        <a href="#">
+                                            <div>
+                                                <p>자연</p>
+                                            </div>
+                                            <p>표충사</p>
+                                        </a>
+                                    </li>
+                                    <!--tour_img-->
+                                    <li class="tour_img swiper-slide tsl5">
+                                        <a href="#">
+                                            <div>
+                                                <p>자연</p>
+                                            </div>
+                                            <p>열음골</p>
+                                        </a>
+                                    </li>
+                                    <!--tour_img-->
+                                    <li class="tour_img swiper-slide tsl6">
+                                        <a href="#">
+                                            <div>
+                                                <p>체험</p>
+                                            </div>
+                                            <p>오토캠핑장</p>
+                                        </a>
+                                    </li>
+                                    <!--tour_img-->
+                                    <li class="tour_img swiper-slide tsl7">
+                                        <a href="#">
+                                            <div>
+                                                <p>자연</p>
+                                            </div>
+                                            <p>만어사</p>
+                                        </a>
+                                    </li>
+                                    <!--tour_img-->
+                                    <li class="tour_img swiper-slide tsl8">
+                                        <a href="#">
+                                            <div>
+                                                <p>체험</p>
+                                            </div>
+                                            <p>평리녹색체험마을</p>
+                                        </a>
+                                    </li>
+                                    <!--tour_img-->
+                                </ul>
+                            </div>
+                        </div>
+                        <!--tour-->
+                        <div class="course">
+                            <div></div>
+                            <ul>
+                                <li><a href="#">코스여행</a></li>
+                                <li><a href="#">음식/숙박/여행</a></li>
+                                <li><a href="#">할인쿠폰</a></li>
+                            </ul>
+                        </div>
+                        <!--course-->
+                    </div>
+                    <!--culture_tour-->
+                </div>
+                <!--tour_wrap-->
+            </div>
+            <!--contents-->
+            <div class="who_wrap">
+                <div class="who">
+                    <div class="citizen">
+                        <h4><button type="button"><span>밀양시민</span><span class="icon"></span></button></h4>
+                        <ul>
+                            <li><a href="#">종합민원안내</a></li>
+                            <li><a href="#">안양통계</a></li>
+                            <li><a href="#">신고센터</a></li>
+                            <li><a href="#">교통정보</a></li>
+                            <li><a href="#">정보공개청구</a></li>
+                            <li><a href="#">토지정보/주택가격</a></li>
+                            <li><a href="#">사이버무료강좌</a></li>
+                            <li><a href="#">재개발재건축정보</a></li>
+                            <li><a href="#">평생학습정보</a></li>
+                            <li><a href="#">대형폐기물인터넷신고</a></li>
+                            <li><a href="#">주정차과태료조회</a></li>
+                            <li><a href="#">육아종합지원센터</a></li>
+                            <li><a href="#">상하수도요금조회</a></li>
+                            <li><a href="#">자동차민원 대국민포털</a></li>
+                        </ul>
+                    </div>
+                    <!--citizen-->
+                    <div class="business">
+                        <h4 class="notopen"><button type="button"><span>사업자</span><span class="icon"></span></button></h4>
+                        <ul>
+                            <li><a href="#">사업자</a></li>
+                            <li><a href="#">안양벤처밸리</a></li>
+                            <li><a href="#">공장설립/등록</a></li>
+                            <li><a href="#">입찰정보</a></li>
+                            <li><a href="#">기업지원정보</a></li>
+                            <li><a href="#">개별공시지가</a></li>
+                            <li><a href="#">소상공인 지원</a></li>
+                            <li><a href="#">토지(지적)정보</a></li>
+                            <li><a href="#">기업애로상담</a></li>
+                            <li><a href="#">지방세 이의신청</a></li>
+                            <li><a href="#">기업체현황</a></li>
+                            <li><a href="#">부동산거래신고</a></li>
+                            <li><a href="#">구인등록</a></li>
+                            <li><a href="#">자동차민원</a></li>
+                        </ul>
+                    </div>
+                    <!--business-->
+                    <div class="tourist">
+                        <h4 class="notopen"><button type="button"><span>관광객</span><span class="icon"></span></button></h4>
+                        <ul>
+                            <li><a href="#">관광객</a></li>
+                            <li><a href="#">관광지도책자 신청</a></li>
+                            <li><a href="#">문화관광해설 신청</a></li>
+                            <li><a href="#">숙박시설</a></li>
+                            <li><a href="#">쇼핑시설</a></li>
+                            <li><a href="#">문화유산</a></li>
+                            <li><a href="#">공연/전시(시설)</a></li>
+                            <li><a href="#">공연/행사정보</a></li>
+                            <li><a href="#">병목안캠핑장 예약</a></li>
+                            <li><a href="#">박물관</a></li>
+                            <li><a href="#">안양8경</a></li>
+                            <li><a href="#">관광코스</a></li>
+                            <li><a href="#">안양천생태이야기관</a></li>
+                        </ul>
+                    </div>
+                    <!--tourist-->
+                </div>
+                <!--who_inner-->
+            </div>
+            <!--who-->
+        </div>
+        <!--container-->
+        <footer>
+            <div class="banner_wrap">
+                <div class="banner">
+                    <h3>배너존</h3>
+                    <div class="controller">
+                        <button type="button" class="prev">이전</button>
+                        <button type="button" class="pause">일시정지</button>
+                        <button type="button" class="next">다음</button>
+                    </div>
+                    <!--controller-->
+                    <div class="banner_img_wrap">
+                        <ul class="banner_img swiper-wrapper">
+                            <li class="ba1 swiper-slide"><a href="#">온라인행정심판</a></li>
+                            <li class="ba2 swiper-slide"><a href="#">경기도의회 상담소</a></li>
+                            <li class="ba3 swiper-slide"><a href="#">부동산거래관리시스템</a></li>
+                            <li class="ba4 swiper-slide"><a href="#">정부민원안내콜센터</a></li>
+                            <li class="ba5 swiper-slide"><a href="#">민원24</a></li>
+                            <li class="ba6 swiper-slide"><a href="#">민원24</a></li>
+                            <li class="ba7 swiper-slide"><a href="#">민원24</a></li>
+                            <li class="ba8 swiper-slide"><a href="#">민원24</a></li>
+                            <li class="ba9 swiper-slide"><a href="#">민원24</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--banner-->
+            </div>
+            <!--banner_wrap-->
+            <div class="link_wrap">
+                <div class="link">
+                    <div class="distric_office">
+                        <h5><button type="button">읍면동<span></span></button></h5>
+                        <div class="select_layer">
+                            <ul>
+                                <li class="even-sp01"><a href="#" target="_blank">삼랑진읍</a></li>
+                                <li class="even-sp01"><a href="#" target="_blank">하남읍</a></li>
+                                <li class="even-sp01"><a href="#" target="_blank">부북면</a></li>
+                                <li class="even-sp01"><a href="#" target="_blank">상동면</a></li>
+                                <li class="even-sp01"><a href="#" target="_blank">산외면</a></li>
+                                <li class="even-sp01"><a href="#" target="_blank">산내면</a></li>
+                                <li class="even-sp01"><a href="#" target="_blank">단장면</a></li>
+                                <li class="even-sp01"><a href="#" target="_blank">상남면</a></li>
+                                <li class="even-sp01"><a href="#" target="_blank">초동면</a></li>
+                                <li class="even-sp01"><a href="#" target="_blank">무안면</a></li>
+                                <li class="even-sp01"><a href="#" target="_blank">청도면</a></li>
+                                <li class="even-sp01"><a href="#" target="_blank">내일동</a></li>
+                                <li class="even-sp01"><a href="#" target="_blank">내이동</a></li>
+                                <li class="even-sp01"><a href="#" target="_blank">교동</a></li>
+                                <li class="even-sp01"><a href="#" target="_blank">삼문동</a></li>
+                                <li class="even-sp01"><a href="#" target="_blank">가곡동</a></li>
+                            </ul>
+                        </div>
+                        <!--select_layer-->
+                    </div>
+                    <!--distric_office-->
+                    <div class="milyang">
+                        <h5><button type="button">도내지방자치단체<span></span></button></h5>
+                        <div class="select_layer">
+                            <ul>
+                                <li><a href="#" target="_blank" title="새 창">경상남도</a></li>
+                                <li><a href="#" target="_blank" title="새 창">창원시</a></li>
+                                <li><a href="#" target="_blank" title="새 창">진주시</a></li>
+                                <li><a href="#" target="_blank" title="새 창">통영시</a></li>
+                                <li><a href="#" target="_blank" title="새 창">사천시</a></li>
+                                <li><a href="#" target="_blank" title="새 창">김해시</a></li>
+                                <li><a href="#" target="_blank" title="새 창">거제시</a></li>
+                                <li><a href="#" target="_blank" title="새 창">양산시</a></li>
+                                <li><a href="#" target="_blank" title="새 창">의령군</a></li>
+                                <li><a href="#" target="_blank" title="새 창">함안군</a></li>
+                                <li><a href="#" target="_blank" title="새 창">창녕군</a></li>
+                                <li><a href="#" target="_blank" title="새 창">고성군</a></li>
+                                <li><a href="#" target="_blank" title="새 창">남해군</a></li>
+                                <li><a href="#" target="_blank" title="새 창">하동군</a></li>
+                                <li><a href="#" target="_blank" title="새 창">산청군</a></li>
+                                <li><a href="#" target="_blank" title="새 창">함양군</a></li>
+                                <li><a href="#" target="_blank" title="새 창">거창군</a></li>
+                                <li><a href="#" target="_blank" title="새 창">합천군</a></li>
+                            </ul>
+                        </div>
+                        <!--select_layer-->
+                    </div>
+                    <!--anyang-->
+                    <div class="relate_milyang">
+                        <h5><button type="button">밀양시관련사이트<span></span></button></h5>
+                        <div class="select_layer">
+                            <ul>
+                                <li><a href="#" target="_blank" title="새 창">얼음골사과정보화마을</a></li>
+                                <li><a href="#" target="_blank" title="새 창">평리산대추정보화마을</a></li>
+                                <li><a href="#" target="_blank" title="새 창">밀양아리랑대축제</a></li>
+                                <li><a href="#" target="_blank" title="새 창">밀양아리랑마라톤</a></li>
+                                <li><a href="#" target="_blank" title="새 창">밀양시청소년수련관</a></li>
+                                <li><a href="#" target="_blank" title="새 창">밀양시청소년상담복지센터</a></li>
+                                <li><a href="#" target="_blank" title="새 창">밀양시종합사회복지관</a></li>
+                                <li><a href="#" target="_blank" title="새 창">화악산둥지권역 농촌체험마을</a></li>
+                                <li><a href="#" target="_blank" title="새 창">밀양사자평습지와재약산생태관광협의회</a></li>
+                            </ul>
+                        </div>
+                        <!--select_layer-->
+                    </div>
+                    <!--relate_anyang-->
+                    <div class="organization">
+                        <h5><button type="button">유관기관<span></span></button></h5>
+                        <div class="select_layer">
+                            <ul>
+                                <li><a href="#" target="_blank" title="새 창">밀양문화재단</a></li>
+                                <li><a href="#" target="_blank" title="새 창">밀양시시설관리공단</a></li>
+                                <li><a href="#" target="_blank" title="새 창">밀양교육지원청</a></li>
+                                <li><a href="#" target="_blank" title="새 창">밀양경찰서</a></li>
+                                <li><a href="#" target="_blank" title="새 창">밀양소방서</a></li>
+                                <li><a href="#" target="_blank" title="새 창">밀양우체국</a></li>
+                                <li><a href="#" target="_blank" title="새 창">밀양상공회의소</a></li>
+                                <li><a href="#" target="_blank" title="새 창">밀양시선거관리위원회</a></li>
+                                <li><a href="#" target="_blank" title="새 창">국민연금공단김해밀양지사</a></li>
+                            </ul>
+                        </div>
+                        <!--select_layer-->
+                    </div>
+                    <!--link-->
+                </div>
+                <!--link_wrap-->
+                <div class="copyright">
+                    <div>
+                        <h2><a href="#">밀양시청로고</a></h2>
+                        <div class="policy">
+                            <ul>
+                                <li><a href="#">개인정보처리방침</a></li>
+                                <li><a href="#">개인정보위탁현황</a></li>
+                                <li><a href="#">이메일 주소 수집 거부</a></li>
+                                <li><a href="#">홈페이지 개선건의</a></li>
+                                <li><a href="#">찾아오시는 길 </a></li>
+                                <li><a href="#">저작권정책</a></li>
+                            </ul>
+                        </div>
+                        <!--policy-->
+                        <div class="flag">대한민국국기</div>
+                    </div>
+                    <address>
+                        <p>(50420) 경상남도 밀양시 밀양대로 2047 (교동)</p>
+                        <p>대표전화: 055-359-5114 팩스: 055-359-5601 비상전화: 055-353-9711</p>
+                        <p>본사이트에 게시된 이메일주소의 자동수집을 거부하며,이를 위반시 정보통신망법에 의해 형사처벌됨을 유념하시기 바랍니다.</p>
+                        <p>Copyright &copy; 2015 MIRYANG CITY HALL ALL Rights Reserved</p>
+                    </address>
+                </div>
+                <!--copyright-->
+        </footer>
+    </div>
+    <!--wrap-->
+</body>
+</html>
